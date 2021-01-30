@@ -11,3 +11,6 @@ while True :
 #   p = [name, price] 上兩行也可以寫成這樣
     stocks.append(p)
 print(stocks)
+
+for p in stocks:
+    print(p[0], "的價格是", p[1])
