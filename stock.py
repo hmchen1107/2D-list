@@ -14,3 +14,7 @@ print(stocks)
 
 for p in stocks:
     print(p[0], "的價格是", p[1])
+
+with open('stock.csv','w') as f :
+    for p in stocks :
+        f.write(p[0]+","+p[1]+'\n')
